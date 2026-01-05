@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   <!-- Aggiungi Anime.js dal CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+
+<!-- Poi il tuo script personalizzato -->
+<script src="jscript.js"></script>
+    <title> For you <3 </title>
+    <style>
+        #image-carousel {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0;
+        }
+
+        .carousel-container {
+            position: relative;
+            width: 300px;
+            height: 200px;
+            overflow: hidden;
+        }
+
+        .carousel-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+        }
+
+        .carousel-image.active {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="overlay">
+        <h1>benvenuta <3 </h1>
+    </div>
+    <div><h2>for my baby <3 </h2></div>
+    <section>
+        
+    <div class="container">
+        <div class="img"></div>
+        <div class="title"><h2></h2></div>
+        <div class="divButton"><button id="audio-toggle">stop</button></div>
+    </div>
+    <audio id="background-audio" autoplay loop>
+        <source src="bg2.mp3" type="audio/mpeg">
+        Il tuo browser non supporta l'elemento audio.
+    </audio>
+    </section>
+
+    <section>
+    <div class="containerDue">
+        <div>
+            <h2>Ti amo tanto amore mio </h2>
+            <p>Non so nemmeno da dove cominciare per dirti quanto sei importante per me. Ogni giorno con te è un dono prezioso che riempie la mia vita. <br> 
+            Pur non essendo chissà quale poeta, voglio provare a mettere in parole quello che provo per te. <br>
+            Mi hai fatto capire che nella vita l'amore vero esiste, e che può essere semplice e puro come il nostro. <br>
+            Ogni volta che mi alzo al mattino, il primo pensiero è per te, e ogni sera, prima di addormentarmi, ringrazio il cielo per averti incontrata. (che diabete 🙄) <br>
+            e anche se posso sembrare un po' goffo a volte, sappi che ogni mio gesto è fatto con tutto l'amore che ho nel cuore. <br>
+            Ho sempre creduto ceh il vero amore fosse una favola, ma tu mi hai dimostrato che è reale, tangibile e meraviglioso. <br>
+            
+        </p> 
+  
+        </div>
+    </div>
+    </section>
+
+    <section>
+    <div class="containerDue">
+        <div>
+            <h2>Sei troppo piccola! </h2>
+            <p>Ricordi ciò che ti dicevo, vero? <br>
+            "Sei troppo piccola per me" <br>
+            Ebbene, ogni giorno che passa mi rendo conto di quanto fossi cieco a non vedere quanto tu sia perfetta per me, nonostante la piccola differenza di età. <br>
+            forse è proprio questo che rende il nostro amore così speciale e unico. <br>
+            
+             
+            </p> 
+  
+        </div>
+    </div>
+    </section>
+
+    <section>
+        <div class="containerDue">
+            <div>
+                <h2>ACAB!</h2>
+                <p> 
+                    13/12/2025, il nostro giorno, il giorno in cui tutto è cambiato. <br>
+                    Quel giorno non è stato solo l'inizio di una nuova avventura insieme, ma anche il simbolo del nostro amore indissolubile. <br>
+                    Ogni foto, ogni audio, ogni ricordo di quel giorno è impresso nel mio cuore come un tesoro prezioso che custodirò per sempre. <br>
+                    Forse sembro superficiale, ma per me quei piccoli dettagli rappresentano la profondità del nostro legame. <br>
+                    Grazie per aver reso quel giorno così speciale e indimenticabile. <br>
+
+                </p> 
+                
+      
+            </div>
+        </div>
+        </section>
+
+    <div id="image-carousel">
+        <div class="carousel-container">
+            <img src="WAW.jpeg" alt="Image 1" class="carousel-image active">
+            <img src="WOW.jpeg" alt="Image 2" class="carousel-image">
+            <img src="WAimg.jpeg" alt="Image 3" class="carousel-image">
+    </div>
+
+    </div>
+    <section>
+        <div class="containerDue">
+            <div>
+        <h2>Il futuro (che ansia, ma con te va bene)</h2>
+<p>
+    Non so cosa ci riserva il futuro, e francamente l'idea mi terrorizza un po'. <br>
+    Ma se ci sei tu accanto, so che tutto andrà bene... o almeno avrò qualcuno con cui lamentarmi. <br>
+    Voglio vivere mille altre avventure insieme, fare mille altri errori, e collezionare mille altri ricordi con te. <br>
+    Perché alla fine, tutto quello che conta è che ci siamo noi. Noi due contro il mondo (che drammone). <br>
+</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="containerDue">
+            <div>
+        <h2>Promesse (che cercherò di mantenere)</h2>
+<p>
+    Prometto di continuare a farti ridere, anche quando le mie battute saranno pessime (tipo ora). <br>
+    Prometto di ascoltarti quando mi racconti [cosa che racconta spesso], anche se a volte perdo il filo. <br>
+    Prometto di supportarti nei tuoi sogni, anche quelli che sembrano impossibili. <br>
+    Prometto di essere sempre sincero con te, anche quando la verità è "sì, hai ragione tu" (che poi è sempre). <br>
+    E prometto di amarti ogni singolo giorno, anche quando saremo vecchi e rincoglioniti. <br>
+</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="containerDue">
+            <div>
+
+<h2>Un pensiero random (ma importante)</h2>
+<p>
+    A volte mi fermo e penso a quanto sono fortunato ad averti. <br>
+    Poi mi ricordo che anche tu hai scelto me, e mi chiedo se hai sbattuto la testa quel giorno. <br>
+    Ma scherzi a parte, grazie per aver visto qualcosa in me che forse nemmeno io vedevo. <br>
+    Grazie per accettarmi con tutti i miei difetti, le mie paranoie, e le mie playlist discutibili. <br>
+    Sei la cosa migliore che mi sia mai capitata, e non è retorica da San Valentino, è la verità. <br>
+</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="containerDue">
+            <div>
+
+<h2>Spoiler del futuro</h2>
+<p>
+    Tra qualche anno staremo ancora insieme a prenderci in giro a vicenda. <br>
+    Faremo viaggi assurdi, mangeremo cibo pessimo in posti sperduti, e rideremo di tutto. <br>
+    Magari avremo [inserisci sogno condiviso: casa, cane, giardino, etc.]. <br>
+    E continuerò a guardarti come ti guardo adesso, chiedendomi come diavolo ho fatto ad essere così fortunato. <br>
+    Il nostro "per sempre" è appena iniziato, e non vedo l'ora di viverlo tutto con te. <br>
+</p>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="containerDue">
+            <div>
+        <h2>P.S.</h2>
+<p>
+    So che questo sito è un po' cheesy e imbarazzante, ma hey, tu mi fai fare cose pazze. <br>
+    Ti amo più di quanto le parole possano esprimere (anche se ci ho provato per [numero] paragrafi). <br>
+    Grazie per essere il mio posto sicuro, il mio tutto, la mia bimba. ❤️ <br>
+</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="containerDue">
+            <div>
+        <h2>Post diabete 😩</h2>
+<p>
+    Se sei arrivata fin qui, complimenti! Sei ufficialmente la persona più paziente del mondo. <br>
+    Spero che questo piccolo gesto ti abbia fatto sorridere, anche solo un po'. <br>
+    Non vedo l'ora di creare altri ricordi insieme, ridere fino alle lacrime, e amarti con tutto me stesso. <br>
+    Sì, sono troppo romantico, ma con te lo sono diventato, quindi accettalo. <br>
+    spero di averti fatto sentire speciale, perché per me lo sei ogni singolo giorno, quindi abituati a tutto questo 🙄 <br>
+    perdonami per tutte queste smancerie, ma è il mio modo di dirti quanto ti amo. <br>
+    sei speciale e unica. Sei mia.
+</p>
+<h2>TI AMO</h2>
+<h3>Dal tuo amore Francesco <3 </h3>
+
+<div class="cuore">
+    <p class="cuore">❤️</p>
+</div>
+<!-- Aggiungo più elementi con la classe 'cuore' -->
+
+<div class="cuore1"><p class="cuore1">❤️</p></div>
+<div class="cuore2"><p class="cuore2">❤️</p></div>
+<div class="cuore3"><p class="cuore3">❤️</p></div>
+<div class="cuore4"><p class="cuore4">❤️</p></div>
+
+    </section>
+
+   <br><br><br><br><br><br>
+
+    <script>
+        const audio = document.getElementById('background-audio');
+        const button = document.getElementById('audio-toggle');
+
+        button.addEventListener('click', () => {
+            if (audio.paused) {
+                audio.play();
+                button.textContent = 'stop';
+            } else {
+                audio.pause();
+                button.textContent = 'play';
+            }
+        });
+
+        const overlay = document.getElementById('overlay');
+
+        overlay.addEventListener('click', () => {
+            overlay.style.display = 'none';
+            audio.play(); // Avvia la riproduzione dell'audio dopo l'interazione
+        });
+
+        const images = document.querySelectorAll('.carousel-image');
+        let currentIndex = 0;
+
+        function showNextImage() {
+            images[currentIndex].classList.remove('active');
+            currentIndex = (currentIndex + 1) % images.length;
+            images[currentIndex].classList.add('active');
+        }
+
+        setInterval(showNextImage, 3000); // Cambia immagine ogni 3 secondi
+    
+        anime({
+            targets: '.cuore', // Il target dell'animazione
+            translateX: [250, -250], // Da -250 a 250
+            duration: 5000,
+            translateY: [-25, 25], // Durata dell'animazione
+            easing: 'easeInOutQuad', // Tipo di easing
+            loop: true, // Animazione in loop
+            direction: 'alternate'
+            
+            // Fa andare avanti e indietro
+          });
+
+          anime({
+            targets: '.cuore1', // Il target dell'animazione
+             translateX: [-75, 75], // Da -250 a 250
+            duration: 5000,
+            translateY: [25, -25], // Durata dell'animazione
+            easing: 'easeInOutQuad', // Tipo di easing
+            loop: true, // Animazione in loop
+            direction: 'alternate'
+            
+
+            
+            // Fa andare avanti e indietro
+          });
+
+          anime({
+            targets: '.cuore2', // Il target dell'animazione
+             translateX: [125, -125], // Da -250 a 250
+            duration: 5000,
+            translateY: [-10, 10], // Durata dell'animazione
+            easing: 'easeInOutQuad', // Tipo di easing
+            loop: true, // Animazione in loop
+            direction: 'alternate'
+            
+
+            
+            // Fa andare avanti e indietro
+          });
+
+          anime({
+            targets: '.cuore3', // Il target dell'animazione
+            translateX: [-175, 175], // Da -250 a 250
+            duration: 5000,
+            translateY: [-50, 50], // Durata dell'animazione
+            easing: 'easeInOutQuad', // Tipo di easing
+            loop: true, // Animazione in loop
+            direction: 'alternate'
+            
+
+            
+            // Fa andare avanti e indietro
+          });
+
+
+          anime({
+            targets: '.cuore4', // Il target dell'animazione
+             translateX: [200, -200], // Da -250 a 250
+            duration: 5000,
+            translateY: [10, -10], // Durata dell'animazione
+            easing: 'easeInOutQuad', // Tipo di easing
+            loop: true, // Animazione in loop
+            direction: 'alternate'
+            
+
+            
+            // Fa andare avanti e indietro
+          });
+          
+    
+    </script>
+
+    
+</body>
+</html>

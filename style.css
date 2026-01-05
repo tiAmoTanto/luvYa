@@ -1,0 +1,126 @@
+/* Importazione del font pixellato da Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+html{
+    background: linear-gradient(rgb(197, 0, 0), rgb(255, 0, 119));
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* Modifica per allineare il container al centro */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+
+
+/* Posizionamento della classe "title" sotto la classe "img" */
+
+.title {
+    
+    text-align: center;
+    font-size: 1.5rem;
+    color: #ff0000;
+}
+
+/* Aggiunta di un font pixellato per il testo h2 */
+
+h2 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.2rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+button{
+    font-family: 'Dancing Script', cursive;
+    font-size: 1rem;
+    padding: 10px 20px;
+    
+    background-color: #000000;
+    color: #ffffff;
+    
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Stile per l'overlay */
+
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 0, 76);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+.img{
+    width: 50vw;
+    height: 50vh;
+    border-radius: 5%;
+    border: 5px solid #000000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-image: url('WAimg.jpeg');
+    background-size: cover;
+    background-position: center;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.2rem;
+    color: #000000;
+    text-align: center;
+}
+
+
+h2{
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    color: #000000;
+    text-align: center;
+    font-size: 5vw;
+
+}
+
+
+
+h3{
+    font-family: 'Dancing Script', cursive;
+    
+    color: #494949;
+    text-align: left;
+    
+
+}
